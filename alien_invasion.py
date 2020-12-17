@@ -185,6 +185,7 @@ class AlienInvasion:
     def _check_aliens_bottom(self):
         """Check if any aliens have reached the bottom of the screen"""
         screen_rect = self.screen.get_rect()
+        
         for alien in self.aliens.sprites():
             if alien.rect.bottom >= screen.rect.bottom:
                 # Treat this the same as if the ship got hit
