@@ -5,7 +5,7 @@ In Alien Invasion, the player controls a ship that appears at the bottom center 
 - [Python](https://www.python.org/) 3.x +
 - [Pygame](https://www.pygame.org/)
 
-# :video_game: Controls
+# ⌨️ Controls
 - Space-bar
   - Shoot
 
